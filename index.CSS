@@ -1,9 +1,6 @@
-p
-{
+p{
   color: red;
 }
-body
-{
-  background:url("th.jpg");
-  
+body{
+  background-image:url("th.jpg");  
 }
