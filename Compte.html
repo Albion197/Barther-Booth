@@ -183,7 +183,7 @@ if (isset($_POST['email']) &&  isset($_POST['password'])) {
                 'email' => $user['email'],
             ];
         } else {
-            $errorMessage = sprintf('Les informations envoyées ne permettent pas de vous identifier : (%s/%s)',
+            	$errorMessage = sprintf('Les informations envoyées ne permettent pas de vous identifier : (%s/%s)',
                 $_POST['email'],
                 $_POST['password']
             );
